@@ -44,3 +44,9 @@ User logout with instant disconnection broadcast
 
 <img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/0e2becdd-0328-42da-a6e0-26a0caddcbe0" />
 
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/95b98f15-c08d-4ca3-8b89-00f655f29140" />
+
+<img width="1919" height="1074" alt="Image" src="https://github.com/user-attachments/assets/ccae7a1a-87b3-40fb-b415-c014ad4db390" />
+
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/567204ef-7a0c-4c47-998f-82b163395fcb" />
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/21f63af2-5c29-4c10-844a-1eddbcb60a8b" />
