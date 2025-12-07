@@ -42,3 +42,5 @@ User logout with instant disconnection broadcast
 
 # OUTPUT
 
+<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/0e2becdd-0328-42da-a6e0-26a0caddcbe0" />
+
