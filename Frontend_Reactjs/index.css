@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffccd5, #ffb3c6, #ff8fab);
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 40px;
+  
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Chat Container */
+.chat-container {
+  width: 600px;
+  min-height: 65vh;
+  max-width: 90%;
+  justify-content: center;
+  background: rgba(255, 0, 0, 0.211);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.chat-header {
+  background: #131516;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chat-header.joined {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.username-input {
+  background-color: transparent;
+  padding-bottom: 1em;
+}
+
+/* Message Area */
+.message-list {
+  display: flex;
+  flex: auto;
+  overflow: auto;
+  position: relative;
+  flex-direction: column-reverse;
+  height: 400px;
+}
+
+/* Individual Message */
+.message {
+  background: #e3f2fd;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  backdrop-filter: blur(6px);
+  border-radius: 5px;
+  flex-direction: column;
+  width: fit-content;
+  margin: 0.6em 1em;
+}
+
+.message.system {
+  background: rgba(255,255,255,0.35);  
+  backdrop-filter: blur(6px);
+  color: #000;
+  padding: 8px 14px;
+  margin: 10px auto;
+  border-radius: 8px;
+  width: fit-content;
+  display: block;
+  text-align: center;      
+}
+
+
+.message.me {
+  background: #e3f2fd5e;
+  backdrop-filter: blur(6px);
+  flex-direction: row;
+  align-self: flex-end;
+  color: rgb(14, 9, 9);
+  font-weight: bol  ;
+  border-top-right-radius: 0;
+}
+
+/* User List */
+.users {
+  background:  rgba(255, 255, 255, 0.35); 
+  backdrop-filter: blur(4px);            
+  border-bottom: 1px solid #ffffff50;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Input Area */
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background: white;
+  border-top: 1px solid #ccc;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background: gray;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-input button {
+  background: #090a0b;
+  color: white;
+}
+
+.chat-input button:hover {
+  background: #0c0c0c;
+  color: white;
+}
+
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background: #111;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  margin-bottom: 0px;
+}
+
+.navbar h1 {
+  color: white;
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* Welcome Heading */
+.welcome-text {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+  margin-bottom: -30px;
+  margin-top: 30px;
+}
+
+/* Login Container UI */
+.start-box {
+  width: 450px;
+  background: #111;
+  border-radius: 12px;
+  padding: 40px;
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+
+/* animation */
+body {
+  background: #ffccd5;
+  overflow: hidden;
+}
+
+.bubble {
+  position: absolute;
+  background: rgba(255,255,255,0.25);
+  border-radius: 50%;
+  animation: float 8s infinite ease-in-out;
+}
+
+.b1 { width: 120px; height:120px; left:10%; top:70%; animation-delay:0s;}
+.b2 { width: 80px; height:80px; left:70%; top:80%; animation-delay:2s;}
+.b3 { width: 150px; height:150px; left:40%; top:90%; animation-delay:4s;}
+.b4 { width: 150px; height:150px; left:80%; top:70%; animation-delay:3s;}
+
+@keyframes float {
+  0% { transform: translateY(0) }
+  100% { transform: translateY(-700px) }
+}
+
+
